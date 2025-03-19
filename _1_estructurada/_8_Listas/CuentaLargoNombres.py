@@ -3,7 +3,7 @@ from unittest import case
 if __name__ == '__main__':
     n= int (input("Cuántos nombres quieres? "))
     indios=[0,0,0,0,0,0,0,0,0,0]
-    extras:int=1
+    extras:int=0
 
     for i in range(n):
         nombre=str(input("Ingresa el nombre: "))
